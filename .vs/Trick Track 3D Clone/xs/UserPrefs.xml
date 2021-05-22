@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{8DEC16BD-43C6-D3A1-E099-F5EDBB047593}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character Related/ShooterAI.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Ball Related/Ball.cs" Line="56" Column="45" />
+      <File FileName="Assets/Scripts/Character Related/Player.cs" Line="141" Column="29" />
+      <File FileName="Assets/Scripts/Obstacle Related/Target.cs" Line="15" Column="22" />
+      <File FileName="Assets/Scripts/Obstacle Related/OneHitTarget.cs" Line="12" Column="38" />
+      <File FileName="Assets/Scripts/Obstacle Related/BallTank.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Level Related/LevelManager.cs" Line="11" Column="50" />
+      <File FileName="Assets/Scripts/Ball Related/DragAndShoot.cs" Line="78" Column="35" />
+      <File FileName="Assets/Scripts/Level Related/FinishLine.cs" Line="32" Column="71" />
+      <File FileName="Assets/Scripts/Ball Related/QuickShooter.cs" Line="11" Column="20" />
+      <File FileName="Assets/Scripts/Character Related/ShooterAI.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Trick Track 3D Clone" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Ball Related" expanded="True" />
+                <Node name="Character Related" expanded="True">
+                  <Node name="ShooterAI.cs" selected="True" />
+                </Node>
+                <Node name="Game Data" expanded="True" />
+                <Node name="Level Related" expanded="True" />
+                <Node name="Obstacle Related" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="beeb05b6-713e-42cd-8ecf-4a3b9c35b896" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
