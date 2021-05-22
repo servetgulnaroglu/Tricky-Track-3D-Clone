@@ -1,16 +1,11 @@
 ﻿<Properties StartupConfiguration="{8DEC16BD-43C6-D3A1-E099-F5EDBB047593}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Character Related/ShooterAI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ConstantValues.cs">
     <Files>
-      <File FileName="Assets/Scripts/Ball Related/Ball.cs" Line="56" Column="45" />
-      <File FileName="Assets/Scripts/Character Related/Player.cs" Line="141" Column="29" />
-      <File FileName="Assets/Scripts/Obstacle Related/Target.cs" Line="15" Column="22" />
-      <File FileName="Assets/Scripts/Obstacle Related/OneHitTarget.cs" Line="12" Column="38" />
-      <File FileName="Assets/Scripts/Obstacle Related/BallTank.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Level Related/LevelManager.cs" Line="11" Column="50" />
-      <File FileName="Assets/Scripts/Ball Related/DragAndShoot.cs" Line="78" Column="35" />
-      <File FileName="Assets/Scripts/Level Related/FinishLine.cs" Line="32" Column="71" />
-      <File FileName="Assets/Scripts/Ball Related/QuickShooter.cs" Line="11" Column="20" />
-      <File FileName="Assets/Scripts/Character Related/ShooterAI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Obstacle Related/PlayerStoperWhenRed.cs" Line="6" Column="73" />
+      <File FileName="Assets/Scripts/Obstacle Related/Smasher.cs" Line="11" Column="1" />
+      <File FileName="Assets/Scripts/Obstacle Related/Target.cs" Line="8" Column="62" />
+      <File FileName="Assets/Scripts/UI/UIManager.cs" Line="7" Column="14" />
+      <File FileName="Assets/Scripts/ConstantValues.cs" Line="7" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,13 +14,12 @@
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
                 <Node name="Ball Related" expanded="True" />
-                <Node name="Character Related" expanded="True">
-                  <Node name="ShooterAI.cs" selected="True" />
-                </Node>
+                <Node name="Character Related" expanded="True" />
                 <Node name="Game Data" expanded="True" />
                 <Node name="Level Related" expanded="True" />
                 <Node name="Obstacle Related" expanded="True" />
                 <Node name="UI" expanded="True" />
+                <Node name="ConstantValues.cs" selected="True" />
               </Node>
             </Node>
           </Node>

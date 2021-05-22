@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
+ * 
+ * Level informations is collected in LevelManager
+ * 
+ */
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] private Player player;
     [SerializeField] private Player enemy;
-    [SerializeField] private float distancePlayerShouldStopWhenRedTarget = 3f;
     [SerializeField] private UIManager uiManager;
 
     private void Start()
@@ -24,11 +28,6 @@ public class LevelManager : MonoBehaviour
     public Player GetEnemy()
     {
         return this.enemy;
-    }
-
-    public float GetDistancePlayerShouldStopWhenRedTarget()
-    {
-        return this.distancePlayerShouldStopWhenRedTarget;
     }
 
     public void StartGame()

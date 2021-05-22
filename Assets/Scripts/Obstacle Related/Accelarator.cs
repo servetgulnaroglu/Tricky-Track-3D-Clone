@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * 
+ * Subclass of twoStateObstacle
+ * It has two states (green and red) and it has a duty to accelerate or decelerate the player
+ */ 
 public class Accelarator : TwoStateObstacle
 {
     [SerializeField] ObstacleSystem obstacleSystem;

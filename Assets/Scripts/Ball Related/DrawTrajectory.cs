@@ -22,6 +22,7 @@ public class DrawTrajectory : MonoBehaviour
 
     #endregion
 
+    //calculates the motion of the ball and creates a line 
     public void UpdateTrajectory(Vector3 forceVector, Rigidbody rigidbody)
     {
         Vector3 velocity = (forceVector / rigidbody.mass) * Time.fixedDeltaTime;

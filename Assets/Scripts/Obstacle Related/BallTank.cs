@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class BallTank : GlassObstacle
 {
+    //when is red destroy glass and so, let down balls fall down
     public override void ChangeState(bool isRed)
     {
         if (isRed)

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * When an obstacle is red, it kicks the player to a certain position. So that player can hit the target 
+ */
 public class PlayerStoperWhenRed : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] private ObstacleSystem obstacleSystem;
     private Player currentChar;
     Vector3 posOfFirstHit;

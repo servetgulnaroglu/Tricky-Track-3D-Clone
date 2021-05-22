@@ -14,6 +14,7 @@ public class DragAndShoot : MonoBehaviour
     protected Vector3 throwVector;
     [SerializeField] protected Player player;
     private bool areQuickShotsStarted = false;
+    [SerializeField] 
 
 
     private void Update()
@@ -37,6 +38,7 @@ public class DragAndShoot : MonoBehaviour
         UpdateTrajectoryAndForceVector();
     }
 
+    //calculates the force should be applied to the ball
     protected virtual void CalculateThrowVector()
     {
         Vector3 vector = -mousePressDownPos + mouseReleasePos;
@@ -69,16 +71,18 @@ public class DragAndShoot : MonoBehaviour
         player.ThrowBall(throwVector, false);
     }
 
+    //called when end of the level comes
     public void StartQuickShots()
     {
         areQuickShotsStarted = true;
         StartCoroutine(QuickShotCoroutine());
     }
 
+    //in the end of the level, it is recursively called to throw balls constantly
     IEnumerator QuickShotCoroutine()
     {
         StartShootProcess();
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(player.GetBallReadyDelay());
         StartCoroutine(QuickShotCoroutine());
     }
 

@@ -2,6 +2,11 @@ using UnityEngine;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
+
+/*
+ * Saves and loads data
+ * (Not used in the project yet)
+ */
 public class DataController
 {
     public static void SaveData(Data data)

@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Class to control who wins.
+ */
 public class FinishLine : MonoBehaviour
 {
 

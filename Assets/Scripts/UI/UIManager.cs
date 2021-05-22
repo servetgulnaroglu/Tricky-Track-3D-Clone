@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * Controls start and restart buttons
+ */
 public class UIManager : MonoBehaviour
 {
     [SerializeField] GameObject startButton;

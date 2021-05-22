@@ -5,25 +5,13 @@ using UnityEngine;
 public class ShooterAI : MonoBehaviour
 {
     [SerializeField] private bool isLeftSide;
+    //the enemy
     [SerializeField] private Player player;
     [SerializeField] private Transform ballStarPos;
     private Target tempTarget;
 
-    //void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.gameObject.CompareTag("Target"))
-    //    {
-    //        tempTarget = other.gameObject.GetComponent<Target>();
-    //        if (isLeftSide && tempTarget.GetObstacleSystem().GetIsCurrentlyRed())
-    //        {
-    //            ProcessShoot(other.gameObject.transform.position);
-    //        } else if (!isLeftSide && !tempTarget.GetObstacleSystem().GetIsCurrentlyRed())
-    //        {
-    //            ProcessShoot(other.gameObject.transform.position);
-    //        }
-    //    }
-    //}
-
+    // if target is on the right side, shoot if green or don't
+    // if target is on the left side, shoot if red or don't
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Target"))
@@ -40,6 +28,7 @@ public class ShooterAI : MonoBehaviour
         }
     }
 
+    //calculates the force should be implemented by the enemy
     private void ProcessShoot(Vector3 targetPos)
     {
         Vector3 differenceVector = targetPos - ballStarPos.gameObject.transform.position;

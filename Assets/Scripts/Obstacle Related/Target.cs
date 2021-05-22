@@ -7,11 +7,6 @@ public class Target : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] protected ObstacleSystem obstacleSystem;
 
-    void Start()
-    {
-        //isCurrentlyRed = obstacleSystem.GetIsCurrentlyRed();
-    }
-
     protected virtual void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Ball") || collision.gameObject.CompareTag("EnemyBall")) {

@@ -18,6 +18,7 @@ public class Ball : MonoBehaviour
         gotHitByEnemyBall = false;
     }
 
+    //die after being throwed
     IEnumerator DieCoroutine(){
         yield return new WaitForSeconds(liveDuration);
         Destroy(gameObject);
@@ -33,6 +34,7 @@ public class Ball : MonoBehaviour
         StartCoroutine(DieCoroutine());
     }
 
+    //to give rotation motion to the ball
     private void Rotate()
     {
         childTransform.Rotate(new Vector3(rotateSpeed + Random.Range(-rotateSpeedRandomInterval, rotateSpeedRandomInterval),
@@ -40,6 +42,7 @@ public class Ball : MonoBehaviour
             rotateSpeed + Random.Range(-rotateSpeedRandomInterval, rotateSpeedRandomInterval)) * Time.deltaTime);
     }
 
+    //called when ball is being throwed
     public void UnfreezePosition()
     {
         if(rigidbody)
@@ -51,6 +54,7 @@ public class Ball : MonoBehaviour
         return gotHitByEnemyBall;
     }
 
+    //when a ball is hit by enemyball, let it go
     protected virtual void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("EnemyBall"))

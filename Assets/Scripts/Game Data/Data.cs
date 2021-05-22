@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ *  Data class will be used to form data if necessary
+ *  (Not used in the project yet)
+ */
 [System.Serializable]
 public class Data
 {
-    // Start is called before the first frame update
     private int lastLevel, coins;
 
     public Data()

@@ -99,6 +99,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //called by DragAndShoot
     public void ThrowBall(Vector3 throwVector, bool isForceModeImpulse)
     {
         if (haveBallNow)
@@ -116,6 +117,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    //called when obstacles hit
     public void SetCurrentObstacleSystemAndZPos(ObstacleSystem obstacleSystem, float zPos)
     {
         Vector3 pos = transform.position;
@@ -162,11 +164,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    //called when encountered to a hill
     private void MoveUpABit()
     {
         rigidbody.AddForce(Time.deltaTime * speed * (Vector3.forward + 100*Vector3.up));
     }
 
+    //when an obstacle hits
     private void DieAndSetCurrentPosition(float zPos)
     {
         Vector3 pos = transform.position;
@@ -183,11 +187,13 @@ public class Player : MonoBehaviour
         animator.SetBool("isDead", false);
     }
 
+    //called by the accelerator
     public void SetIncrementOfSpeedAsPercentage(float incrementOfSpeedAsPercentage)
     {
         incrementOfSpeed = initialSpeed * incrementOfSpeedAsPercentage / 100;
     }
 
+    //called when win 
     public void StartWinCondition()
     {
         isWin = true;
@@ -225,7 +231,13 @@ public class Player : MonoBehaviour
         animator.SetBool("WinDance", true);
     }
 
+    //it is called when the end of the level comes 
     private void Accelarate() {
         incrementOfSpeed += (accelarationWhenWin * Time.deltaTime);
+    }
+
+    public float GetBallReadyDelay()
+    {
+        return this.ballReadyDelay;
     }
 }

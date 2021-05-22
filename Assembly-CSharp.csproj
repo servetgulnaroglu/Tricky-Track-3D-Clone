@@ -74,12 +74,10 @@
     <Compile Include="Assets/Scripts/Obstacle Related/Accelarator.cs" />
     <Compile Include="Assets/Scripts/Character Related/ShooterAI.cs" />
     <Compile Include="Assets/Scripts/Level Related/FinishLine.cs" />
-    <Compile Include="Assets/Scripts/Obstacle Related/FallingBall.cs" />
     <Compile Include="Assets/Scripts/Obstacle Related/BallTank.cs" />
     <Compile Include="Assets/Scripts/UI/UIManager.cs" />
     <Compile Include="Assets/Scripts/Ball Related/EnemyBall.cs" />
     <Compile Include="Assets/Scripts/Obstacle Related/OneHitTarget.cs" />
-    <Compile Include="Assets/Scripts/Ball Related/QuickShooter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * Class to implement any type of obstacle
+ */
 public class ObstacleSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
     [SerializeField] private bool isCurrentlyRed;
     [SerializeField] private MeshRenderer[] body;
     [SerializeField] private Material greenColor;
@@ -30,6 +32,7 @@ public class ObstacleSystem : MonoBehaviour
     }
 
 
+    //sets color to green or red according to currenState
     private void SetMaterials()
     {
         if (isCurrentlyRed && redColor)
