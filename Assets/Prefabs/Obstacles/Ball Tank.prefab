@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3645772252150784412}
   - component: {fileID: 4116026463498575570}
   - component: {fileID: 4291095925450600302}
-  - component: {fileID: 920840574914749147}
   m_Layer: 9
   m_Name: Falling Ball (3)
   m_TagString: Untagged
@@ -113,18 +112,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &920840574914749147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 264504991765292315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2467790498383281669
 GameObject:
   m_ObjectHideFlags: 0
@@ -138,7 +125,6 @@ GameObject:
   - component: {fileID: 8748391009225863265}
   - component: {fileID: 334695690676166750}
   - component: {fileID: 3167331705661800832}
-  - component: {fileID: 2115380072328158354}
   m_Layer: 9
   m_Name: Falling Ball (6)
   m_TagString: Untagged
@@ -238,18 +224,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2115380072328158354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2467790498383281669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3453656971292421001
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,7 +333,6 @@ GameObject:
   - component: {fileID: 874469397537152106}
   - component: {fileID: 7076194008656359423}
   - component: {fileID: 4531904065960460422}
-  - component: {fileID: 6373570512604626490}
   m_Layer: 9
   m_Name: Falling Ball (5)
   m_TagString: Untagged
@@ -459,18 +432,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6373570512604626490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5966635187933312369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6028288583581641276
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +445,6 @@ GameObject:
   - component: {fileID: 4193168591200779872}
   - component: {fileID: 7447599759136131952}
   - component: {fileID: 3143227961369116096}
-  - component: {fileID: 6564830928294749546}
   m_Layer: 9
   m_Name: Falling Ball (4)
   m_TagString: Untagged
@@ -584,18 +544,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6564830928294749546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6028288583581641276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &6570043783683302158
 GameObject:
   m_ObjectHideFlags: 0
@@ -609,7 +557,6 @@ GameObject:
   - component: {fileID: 596621106497582201}
   - component: {fileID: 6142786530899381043}
   - component: {fileID: 7332164593065319972}
-  - component: {fileID: 4409704104923445315}
   m_Layer: 9
   m_Name: Falling Ball (7)
   m_TagString: Untagged
@@ -709,18 +656,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4409704104923445315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6570043783683302158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7312613158864088238
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +882,6 @@ GameObject:
   - component: {fileID: 7312613160512777448}
   - component: {fileID: 7312613160512777451}
   - component: {fileID: 7312613160512777450}
-  - component: {fileID: 858379859883366281}
   m_Layer: 9
   m_Name: Falling Ball
   m_TagString: FallingBalls
@@ -1047,18 +981,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &858379859883366281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7312613160512777428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &7312613160617215578
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,7 +1027,6 @@ GameObject:
   - component: {fileID: 1148683135306607995}
   - component: {fileID: 8414839353613985334}
   - component: {fileID: 8814380590043076406}
-  - component: {fileID: 8686523493437775913}
   m_Layer: 9
   m_Name: Falling Ball (2)
   m_TagString: Untagged
@@ -1205,18 +1126,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8686523493437775913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8721948278400878354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8793441635553858673
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,7 +1139,6 @@ GameObject:
   - component: {fileID: 2522416842286048320}
   - component: {fileID: 631550733517011354}
   - component: {fileID: 6927709594554256715}
-  - component: {fileID: 7452948238393991793}
   m_Layer: 9
   m_Name: Falling Ball (1)
   m_TagString: Untagged
@@ -1330,15 +1238,3 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &7452948238393991793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8793441635553858673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c572a057336b44d64b57f1993689dc86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

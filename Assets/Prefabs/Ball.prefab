@@ -132,6 +132,7 @@ MonoBehaviour:
   rotateSpeedRandomInterval: 30
   childTransform: {fileID: 916744260574834628}
   liveDuration: 5
+  rigidbody: {fileID: 5529422159949039238}
 --- !u!135 &5529422159949039239
 SphereCollider:
   m_ObjectHideFlags: 0

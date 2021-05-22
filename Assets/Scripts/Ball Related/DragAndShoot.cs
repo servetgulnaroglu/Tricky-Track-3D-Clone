@@ -6,16 +6,14 @@ using UnityEngine;
 public class DragAndShoot : MonoBehaviour
 {
 
-    protected Vector3 mousePressDownPos;
-    protected Vector3 mouseReleasePos;
-    [SerializeField] protected Transform cameraTransform;
-    [SerializeField] protected float ballForce;
-    [SerializeField] protected Rigidbody ballRigidbody;
-    protected Vector3 throwVector;
-    [SerializeField] protected Player player;
+    private Vector3 mousePressDownPos;
+    private Vector3 mouseReleasePos;
+    [SerializeField] private Transform cameraTransform;
+    [SerializeField] private float ballForce;
+    [SerializeField] private Rigidbody ballRigidbody;
+    private Vector3 throwVector;
+    [SerializeField] private Player player;
     private bool areQuickShotsStarted = false;
-    [SerializeField] 
-
 
     private void Update()
     {
@@ -35,7 +33,10 @@ public class DragAndShoot : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        UpdateTrajectoryAndForceVector();
+        if (player.GetHaveBallNow())
+        {
+            UpdateTrajectoryAndForceVector();
+        }
     }
 
     //calculates the force should be applied to the ball
@@ -82,7 +83,7 @@ public class DragAndShoot : MonoBehaviour
     IEnumerator QuickShotCoroutine()
     {
         StartShootProcess();
-        yield return new WaitForSeconds(player.GetBallReadyDelay());
+        yield return new WaitForSeconds(player.GetBallReadyDelay() + Time.deltaTime);
         StartCoroutine(QuickShotCoroutine());
     }
 

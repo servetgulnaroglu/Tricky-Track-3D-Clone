@@ -104,7 +104,7 @@ public class Player : MonoBehaviour
     {
         if (haveBallNow)
         {
-            animator.SetTrigger("shoot");
+//            animator.SetTrigger("shoot");
             currentBall.GetComponent<Ball>().UnfreezePosition();
             if(isForceModeImpulse)
                 currentBall.GetComponent<Rigidbody>().AddForce(throwVector,ForceMode.Impulse);
@@ -223,12 +223,12 @@ public class Player : MonoBehaviour
 
     private void FailDance()
     {
-        animator.SetBool("FailDance", true);
+//        animator.SetBool("FailDance", true);
     }
 
     private void WinDance()
     {
-        animator.SetBool("WinDance", true);
+  //      animator.SetBool("WinDance", true);
     }
 
     //it is called when the end of the level comes 
@@ -239,5 +239,10 @@ public class Player : MonoBehaviour
     public float GetBallReadyDelay()
     {
         return this.ballReadyDelay;
+    }
+
+    public bool GetHaveBallNow()
+    {
+        return haveBallNow;
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 916744260574834628}
   - component: {fileID: 916744260574834630}
   - component: {fileID: 916744260574834629}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,9 +92,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5185794383091326002}
   - component: {fileID: 5529422159949039239}
-  - component: {fileID: 5529422159949039238}
   - component: {fileID: 590683085373970417}
-  m_Layer: 7
+  - component: {fileID: 5529422159949039238}
+  m_Layer: 8
   m_Name: EnemyBall
   m_TagString: EnemyBall
   m_Icon: {fileID: 0}
@@ -129,22 +129,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.010000002
   m_Center: {x: -0.0000000023283064, y: -0.0000000018626451, z: 0}
---- !u!54 &5529422159949039238
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5529422159949039240}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 6
-  m_CollisionDetection: 1
 --- !u!114 &590683085373970417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,3 +145,20 @@ MonoBehaviour:
   rotateSpeedRandomInterval: 30
   childTransform: {fileID: 916744260574834628}
   liveDuration: 5
+  rigidbody: {fileID: 5529422159949039238}
+--- !u!54 &5529422159949039238
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5529422159949039240}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 6
+  m_CollisionDetection: 1

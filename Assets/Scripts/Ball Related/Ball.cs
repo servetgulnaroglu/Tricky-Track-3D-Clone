@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour
     [SerializeField] private Transform childTransform;
     [SerializeField] private float liveDuration = 5f;
     protected bool gotHitByEnemyBall;
-    private Rigidbody rigidbody; 
+    [SerializeField] private Rigidbody rigidbody; 
 
     private void Start()
     {
